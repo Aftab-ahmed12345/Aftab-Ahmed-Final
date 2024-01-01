@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.Hero-text
+{
+  padding-top: 15rem;  
+
+}
+
+.aftab-image
+{ 
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  margin-top: 10rem;
+  margin-left: 10rem;
+}
+.box {
+  height: 88px;
+  width: 1366px;
+  }
+  .box .base {
+  background-color: #ffffff;
+  height: 88px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 1366px;
+  }

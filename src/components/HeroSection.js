@@ -1,10 +1,15 @@
 import React from 'react';
 
+
 function HeroSection() {
 return (
-<div> 
-  
-</div>
+
+    <div className='container d-flex justify-content-center align-item-center' style={{marginTop:"10rem"}}>
+        <h3 style={{paddingLeft:"10rem"}}>Discover NEW Arrivals</h3>
+    </div>
+            
+         
+   
 )
 }
 
