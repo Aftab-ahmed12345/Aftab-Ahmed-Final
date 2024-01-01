@@ -33,8 +33,8 @@ function AllProducts() {
                            error ? <span className={"text-danger"}>"Error while fetching data from api</span> : <Spinner animation="grow" />
                        }
                    </div>: product.map(p=> {
-                       return <div className="col-sm-12 pt-4 pb-4 col-md-6 col-lg-3">
-                           <div className="card" style={{width: "18rem"}}>
+                       return <div className="col-sm-12 pt-4 pb-4 col-md-6 col-lg-3 "  >
+                           <div className="card d-flex my-5 justify-content-center align-items-center mt-5 " style={{width: "18rem"}}  >
                                <img className="card-img-top" src={p.image} alt="Card image cap"/>
                                <div className="card-body">
                                    <h5 className="card-title">{p.title}</h5>
